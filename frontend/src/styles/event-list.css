@@ -1,0 +1,135 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa;
+}
+
+
+.main-container {
+    height: 100vh;
+    overflow-y: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.search-container {
+    position: relative;
+    width: 100%;
+    right: 10px;
+    max-width: 600px; 
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.event-card {
+    width: 550px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.manage-events-btn {
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #ff9800; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.manage-events-btn:hover {
+    background-color: #e68900; 
+}
+
+.event-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.event-card button {
+    align-self: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.event-card button:hover {
+    background-color: #218838;
+}
+
+.no-events {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-top: 30px;
+}
